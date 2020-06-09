@@ -128,6 +128,7 @@ var endGame = function() {
     }
     var playAgainConfirm = window.confirm("Would you like to play again?");
     if (playAgainConfirm) {
+        
         startGame();
     } else {
         window.alert("Thank you for playing Robot Gladiators! Come back soon!");
